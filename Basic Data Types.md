@@ -6,19 +6,19 @@ The most simple numerical types in this language, they have signed and unsigned 
 
 Let's first check a simple example of this numbers represented by [two's complement][1]
 
-|Binary (8-bit)|Decimal Value|Notes|
-|---|---|---|
-|`0000 0000`|0|Zero|
-|`0000 0001`|+1|Positive|
-|`0000 0010`|+2||
-|...|...|Continues upward|
-|`0111 1111`|+127|Maximum positive|
-|`1000 0000`|-128|Minimum negative|
-|`1000 0001`|-127||
-|`1000 0010`|-126||
-|...|...|Continues upward|
-|`1111 1110`|-2||
-|`1111 1111`|-1|Maximum negative (closest to 0)|
+| Binary (8-bit) | Decimal Value | Notes                           |
+| -------------- | ------------- | ------------------------------- |
+| `0000 0000`    | 0             | Zero                            |
+| `0000 0001`    | +1            | Positive                        |
+| `0000 0010`    | +2            |                                 |
+| ...            | ...           | Continues upward                |
+| `0111 1111`    | +127          | Maximum positive                |
+| `1000 0000`    | -128          | Minimum negative                |
+| `1000 0001`    | -127          |                                 |
+| `1000 0010`    | -126          |                                 |
+| ...            | ...           | Continues upward                |
+| `1111 1110`    | -2            |                                 |
+| `1111 1111`    | -1            | Maximum negative (closest to 0) |
 
 If you need to get the negative of a number, flip the bits and add 1:
 
