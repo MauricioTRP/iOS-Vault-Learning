@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Subscript"
             }
+          },
+          {
+            "id": "911c5e3d16babe36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vending Machine (Desafío).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vending Machine (Desafío)"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,8 +199,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0e83f675d96463e",
+  "active": "911c5e3d16babe36",
   "lastOpenFiles": [
+    "Vending Machine (Desafío).md",
     "Subscript.md",
     "Structs.md",
     "Protocols.md",
